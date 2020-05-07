@@ -1,2 +1,3 @@
-# data-science-sources
+# Data Science Resources
+
 Data Science sources for various topics.
