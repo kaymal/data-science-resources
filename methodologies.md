@@ -5,26 +5,31 @@ There are several Data Analytics methodologies. Three popular methodologies are 
 
 1. CRISP-DM
 
-![CRISP-DM](https://barnraisersllc.com/wp-content/uploads/2018/09/CRISP_en.png)![CRISP-DM2](https://www.actuaries.digital/wp-content/uploads/2016/07/datapic2.png)*CRIPS-DM*
+![CRISP-DM](https://barnraisersllc.com/wp-content/uploads/2018/09/CRISP_en.png)
+[_CRIPS-DM_](https://barnraisersllc.com/wp-content/uploads/2018/09/CRISP_en.png)
+![CRISP-DM2](https://www.actuaries.digital/wp-content/uploads/2016/07/datapic2.png)[_CRIPS-DM_](https://www.actuaries.digital/wp-content/uploads/2016/07/datapic2.png)
 
 2. KDD
 
-![KDD](https://www.actuaries.digital/wp-content/uploads/2016/07/datapic1.png)*KDD* 
+![KDD](https://www.actuaries.digital/wp-content/uploads/2016/07/datapic1.png)
+[_KDD_](https://www.actuaries.digital/wp-content/uploads/2016/07/datapic1.png)
 
 3. TDSP
 
-![TDSP](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/media/overview/tdsp-lifecycle2.png)![TDSP2](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/media/overview/tdsp-tasks-by-roles.png)*TDSP*
+![TDSP](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/media/overview/tdsp-lifecycle2.png)![TDSP2](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/media/overview/tdsp-tasks-by-roles.png)
+[_TDSP_](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/media/overview/tdsp-tasks-by-roles.png)
 
-4. Extra: Methadology mentioned in the "R for Data Science" book
-![R](https://d33wubrfki0l68.cloudfront.net/795c039ba2520455d833b4034befc8cf360a70ba/558a5/diagrams/data-science-explore.png)*Graph in the book R for Data Science*
+4. Extra: Methadology mentioned in the [_R for Data Science_](https://r4ds.had.co.nz) book
+![R](https://d33wubrfki0l68.cloudfront.net/795c039ba2520455d833b4034befc8cf360a70ba/558a5/diagrams/data-science-explore.png)
+[_Source_](https://r4ds.had.co.nz)
 
-5. Extra: A standard machine learning pipeline (source: Practical Machine Learning with Python, Apress/Springer)
+5. Extra: A standard machine learning pipeline (source: [Practical Machine Learning with Python, Apress/Springer](https://link.springer.com/book/10.1007/978-1-4842-3207-1))
 ![Machine Learning Workflow](https://cdn-images-1.medium.com/max/1600/1*2T5rbjOBGVFdSvtlhCqlNg.png)
 
 
 I have summarized the tasks within each step of CRISP-DM  below. It is worth noting that this is an **iterative** (not a linear) process. Thus, we may call this process a "Data Science Lifecyle".
 
-_**Not:** Asagida belirtilen ana basliklar, en cok kullanilan metodoloji olan CRISM-DM'ye istinaden secilmis olup alt basliklar okuduklarima istinaden benim kendi degerlendirmemdir. Bircok kaynakta asamalar/alt basliklar farkli sekilde ele alinabilmektedir._
+_**Note:** Following list is prepared by me based on CRISP-DM. The steps might differ from use case to use case._
 
 * Business Understanding
     - Defining Objectives - Problem Definition
@@ -36,11 +41,11 @@ _**Not:** Asagida belirtilen ana basliklar, en cok kullanilan metodoloji olan CR
         + Viewing Structure/Data Types
         + Verifying Data Quality
 * Data Preparation 
-    - Tidying Data (Data Wrangling)
-        + Reshaping Data (melting, pivoting vs.)
+    - Tidying Data (Data Wrangling) (Some sources put this into Data Understanding section)
+        + Reshaping Data (melting, pivoting, etc.)
         + Splitting Cells
-    - Data Preprocessing (Data Wrangling?)
-        + Data Cleansing
+    - Data Preprocessing (Data Wrangling)
+        + Data Cleaning (Data Cleansing in some sources)
             - Missing, Inconsistent and Noisy Data, and Outlier Analysis
             - Converting Data Types
         + Data Transformation (Manipulation)
@@ -48,14 +53,14 @@ _**Not:** Asagida belirtilen ana basliklar, en cok kullanilan metodoloji olan CR
             - Feature Scaling (Standardization, Normalization)
             - Feature Selection (Data Reduction)
                 * Checking Correlation
-                * Dimensionality Reduction (PCA, Lasso..)
+                * Dimensionality Reduction (PCA, Lasso, etc.)
     - Data Exploration (EDA)
         + Summary
         + Visual
-    - Sampling (Data cok buyukse)?
+    - Sampling (If the data is big)
     - Data Splitting
-    - Setting up a Pipeline (Asagidaki asamada olabilir)?
-* Modelling
+    - Setting up a Pipeline 
+* Modeling
     - Selecting Modeling Techniques
     - Building Model
     - Assessing Model
