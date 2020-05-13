@@ -1,21 +1,38 @@
-# Data Analytics Resources: Curated List of Data Science Lifecycle Resources
+# Data Science Resources: Curated List of Data Science Lifecycle Resources
 
-The topics are chosen based on the [Data Analytics methodologies](https://github.com/kaymal/data-science-resources/blob/master/methodologies.md). Summary of methodologies is available [here](https://github.com/kaymal/data-science-resources/blob/master/methodologies.md) in this repo.
+The topics here are chosen based on the [Data Analytics methodologies](https://github.com/kaymal/data-science-resources/blob/master/methodologies.md). Summary of methodologies is available [here](https://github.com/kaymal/data-science-resources/blob/master/methodologies.md) in this repo.
 
-## Table of Contents
+**Focus:**
+- [Data Science](#Table-of-Contents:)
+- [Software Engineering for Data Scientists](https://github.com/kaymal/data-science-resources/blob/master/software-engineering.md)
+- [Data Engineering for Data Scientists](https://github.com/kaymal/data-science-resources/blob/master/data-engineering.md)
 
+
+Table of Contents:
+---
 - Business Understanding
 - Data Acquisition and Understanding
 - Data Preparation
 - Modeling
 - Evaluation
 - Deployement
-
 - Other Resources
     - Datasets
     - Competitions
     - Data for Good
-    
+
+## Business Understanding
+
+## Data Acquisition and Understanding
+
+## Data Preparation
+
+## Modeling
+
+## Evaluation
+
+## Deployement
+
 ## Other Resources
 
 ### Datasets
