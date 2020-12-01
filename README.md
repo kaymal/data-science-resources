@@ -1,9 +1,9 @@
-# Data Science Resources: Curated List of Data Science Lifecycle Resources
+# Data Science Resources: Curated List of Resources on end-to-end Data Science Lifecycle 
 
 The topics here are chosen based on the [Data Analytics methodologies](https://github.com/kaymal/data-science-resources/blob/master/methodologies.md). Summary of methodologies is available [here](https://github.com/kaymal/data-science-resources/blob/master/methodologies.md) in this repo.
 
 **Focus:**
-- [Data Science](#Table-of-Contents:)
+- [Data Science](#Table-of-Contents)
 - [Software Engineering for Data Scientists](https://github.com/kaymal/data-science-resources/blob/master/software-engineering.md)
 - [Data Engineering for Data Scientists](https://github.com/kaymal/data-science-resources/blob/master/data-engineering.md)
 
